@@ -5,7 +5,7 @@ export default class App extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      searchURL: 'http://jservice.io/api/random/',
+      searchURL: 'https://jservice.io/api/random/',
       showAnswer: false,
       score: 0,
       showScore: true,
